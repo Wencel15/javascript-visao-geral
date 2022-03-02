@@ -1,3 +1,5 @@
+//Escopo das variáveis: Exemplo;
+
 var myVariable = 'global';
 myOtherVariable = 'global';
 function myFunction() {
