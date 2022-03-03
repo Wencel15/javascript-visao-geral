@@ -33,4 +33,15 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | /=      | Atribuição de divisão (x /= y) == (x=x / y)     |
 | %=      | Atribuição de resto (x %= y) == (x=x % y)     |
 
+- Operadores de comparação.
+
+| Operador| Descrição |
+| ---     | ----------|
+| ==       | Igual a    |
+| ===       | Igual a (tanto o valor quanto o tipo do objeto) |
+| !=       | Diferente de     |
+| >       | Maior que     |
+| >=       | Maior ou igual a     |
+| <      | Menor que     |
+| <=      | Menor ou igual a     |
 
