@@ -21,3 +21,16 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | %       | Módulo (resto de uma operação de divisão)     |
 | ++      | Incremento     |
 | --      | Decremento     |
+
+- Operadores de atribuição.
+
+| Operador| Descrição |
+| ---     | ----------|
+| =       | Atribuição    |
+| +=      | Atribuição de soma (x += y) == (x=x + y) |
+| -=      | Atribuição de subtração (x -= y) == (x=x - y)    |
+| *=      | Atribuição de multiplicação (x *= y) == (x=x * y)     |
+| /=      | Atribuição de divisão (x /= y) == (x=x / y)     |
+| %=      | Atribuição de resto (x %= y) == (x=x % y)     |
+
+
