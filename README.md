@@ -14,10 +14,10 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 
 | Operador| Descrição |
 | ---     | ----------|
-| Texto   | Texto     |
-| Texto   | Texto     |
-| Texto   | Texto     |
-| Texto   | Texto     |
-| Texto   | Texto     |
-| Texto   | Texto     |
-| Texto   | Texto     |
+| +       | Adição    |
+| -       | Subtração |
+| *       | Multiplicação     |
+| /       | Divisão     |
+| %       | Módulo (resto de uma operação de divisão)     |
+| ++      | Incremento     |
+| --      | Decremento     |
