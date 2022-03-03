@@ -63,9 +63,9 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | <<      | Deslocamento para a esquerda (left shift) |
 | >>      | Deslocamento para a direita (right shift)    |
 
-- Operador typeoff
+- Operador typeof
 
-O operador typeoff devolve o tipo da variável ou expressão.
+O operador typeof devolve o tipo da variável ou expressão.
 
 
 
