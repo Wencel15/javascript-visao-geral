@@ -1,6 +1,5 @@
 # JavaScript
 
-## Referência ao livro Estruturas de dados e algoritmos com JavaScript 2° edição de Loiane Groner 2018 (quinta reimpressão Fevereiro/2022)
 
 ### Escopo das variáveis
 
@@ -63,3 +62,58 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | ^       | Ou exclusivo (Xor)    |
 | <<      | Deslocamento para a esquerda (left shift) |
 | >>      | Deslocamento para a direita (right shift)    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Referência ao livro Estruturas de dados e algoritmos com JavaScript 2° edição de Loiane Groner 2018 (quinta reimpressão Fevereiro/2022)
