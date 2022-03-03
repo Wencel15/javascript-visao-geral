@@ -9,3 +9,15 @@ As variáveis globais em JavaScript são prejudiciais, em geral, a qualidade do 
 
 ### Operadores
 Para realizar qualquer operação em uma linguagem de programação necessitamos de operadores aritméticos. A linguagem JavaScript possui operadores de atribuição, de comparaçõa, lógicos, bit a bit (bitwise) e unários, entre outros.
+
+- Operadores aritméticos.
+
+| Operador| Descrição |
+| ---     | ----------|
+| Texto   | Texto     |
+| Texto   | Texto     |
+| Texto   | Texto     |
+| Texto   | Texto     |
+| Texto   | Texto     |
+| Texto   | Texto     |
+| Texto   | Texto     |
