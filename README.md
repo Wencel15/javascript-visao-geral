@@ -45,3 +45,10 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | <      | Menor que     |
 | <=      | Menor ou igual a     |
 
+- Operador lógico.
+
+| Operador| Descrição |
+| ---     | ----------|
+| &&       | E    |
+| ||       | Ou |
+| !       | Negação    |
