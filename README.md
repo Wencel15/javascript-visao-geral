@@ -50,5 +50,5 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | Operador| Descrição |
 | ---     | ----------|
 | &&       | E    |
-| ||       | Ou |
+| '||'       | Ou |
 | !       | Negação    |
