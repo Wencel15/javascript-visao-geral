@@ -52,3 +52,14 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 | &&       | E    |
 | II       | Ou |
 | !       | Negação    |
+
+- Operador Bit a Bit (bitwise3).
+
+| Operador| Descrição |
+| ---     | ----------|
+| &       | E    |
+| I       | Ou |
+| ~       | Negação    |
+| ^       | Ou exclusivo (Xor)    |
+| <<      | Deslocamento para a esquerda (left shift) |
+| >>      | Deslocamento para a direita (right shift)    |
