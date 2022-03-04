@@ -79,6 +79,23 @@ delete myObj.age;
 console.log(myObj); // exibe Object {name: "John"}
 ```
 
+## Verdadeiro e falso
+
+Em JavaScript, true e false são um pouco complicados. Na maioria das linguagens, os valores booleanos true e false representam os resultados verdadeiro/falso. Em JavaScript, uma string como Packt é avaliada como true.
+
+A tabela a seguir pode nos ajudar a compreender melhjor o funcionamento de true e false.
+
+| Tipo do valor| Resultado |
+| ---       | ----------|
+| Undefined | false    |
+| null      | false    |
+| Boolean   | Verdadeiro é true e falso é false    |
+| Number    | O resultado é false para +0, -0 ou NaN; caso contrário, é true    |
+| String    | O resultado é false se a string for vazia ( o tamanho é 0); caso contrário, é true (tamanho >= 1) |
+| Object    | true    |
+
+
+
 
 
 
