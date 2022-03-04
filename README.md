@@ -67,6 +67,19 @@ Para realizar qualquer operação em uma linguagem de programação necessitamos
 
 O operador typeof devolve o tipo da variável ou expressão.
 
+#### A dois tipos de dados em JavaScript.
+
+- Tipos de dados primitivos: null (nulo), undefined ( indefinido), string, number (número), boolean (booleano) e symbol (símbolo);
+- Tipos de dados derivados/objetos: objetos JavaScript, incluindo funções, arrays e expresso~es regulares.
+
+A linguagem JavaScript também aceita o operador delete, que apaga uma propriedade de um objeto.
+```
+var myObj = {name: 'John', age: 21};
+delete myObj.age;
+console.log(myObj); // exibe Object {name: "John"}
+```
+
+
 
 
 
