@@ -125,7 +125,8 @@ Os metodos toNUmber e to Primitive são internos e avaliam os valores de acordo 
 
 | Tipo do valor | Resultado |
 | ---     | ----------|
-| Object  | Se valueOF devolver um valor primitivo, esse valor primitivo será devolvido; caso contrário, se toString devolver um valor primitivo, esse valor será devolvido; senão, um erro será devolvido.    |
+| Object  | Se valueOf devolver um valor primitivo, esse valor primitivo será devolvido; caso contrário, se toString devolver um valor primitivo, esse valor será devolvido; senão, um erro será devolvido.    |
+
 
 
 
