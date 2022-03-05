@@ -127,6 +127,15 @@ Os metodos toNUmber e to Primitive são internos e avaliam os valores de acordo 
 | ---     | ----------|
 | Object  | Se valueOf devolver um valor primitivo, esse valor primitivo será devolvido; caso contrário, se toString devolver um valor primitivo, esse valor será devolvido; senão, um erro será devolvido.    |
 
+O operador === é mais simples do que o ==. Se estivermos comparando dois valores de tipos diferentes, o resultado sempre será false. Se forem do memso tipo, eles serão comparados de acordo com a tabela a seguir:
+
+
+| Type (x)      | Valores         |  Resultado |
+| ---           | ----------       | --------- |
+| Number        | x tem o mesmo valor que y (mas não é NaN) | true |
+| String        | x e y têm caracteres idênticos            | true |
+| Boolean       | x e y são ambos true ou são ambos false   | true |
+| Object        | x e y referenciam o mesmo objeto          | true |
 
 
 
