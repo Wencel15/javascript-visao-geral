@@ -315,7 +315,7 @@ function Book(title, pages, isbn) {
     console.log(this.isbn);
   };
 }
-book.printIsbns()  
+book.printIsbns();  
 ```
 
 
