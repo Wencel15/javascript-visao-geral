@@ -113,6 +113,7 @@ Se x e y forem do mesmo tipo, o metodo para comparar os dois valores ou objeto s
 Os metodos toNUmber e to Primitive são internos e avaliam os valores de acordo com as tabelas a seguir.
 
 - toNumber
+
 | Tipo do valor | Resultado |
 | ---     | ----------|
 | undefined  | É NaN    |
@@ -121,6 +122,7 @@ Os metodos toNUmber e to Primitive são internos e avaliam os valores de acordo 
 | Number     | É o valor do npumero    |
 
 - toPirimitive
+
 | Tipo do valor | Resultado |
 | ---     | ----------|
 | Object  | Se valueOF devolver um valor primitivo, esse valor primitivo será devolvido; caso contrário, se toString devolver um valor primitivo, esse valor será devolvido; senão, um erro será devolvido.    |
