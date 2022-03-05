@@ -94,6 +94,36 @@ A tabela a seguir pode nos ajudar a compreender melhjor o funcionamento de true 
 | String    | O resultado é false se a string for vazia ( o tamanho é 0); caso contrário, é true (tamanho >= 1) |
 | Object    | true    |
 
+## Funções dos operadores de igualdade ( == E === )
+
+Quando == é usado, os valores poderão ser considerados iguais mesmo se forem de tipos diferentes.
+
+| Type (x)         | Type (y)         |  Resultado |
+| ---              | ----------       | --------- |
+| null             | undefined        | true |
+| undefined        | null             | true |
+| Number           | String           | x == to NUmber(y) |
+| String           | Number           | toNumber(x) == y |
+| Boolean          | Any              | toNumber(x) == y |
+| Any              | Boolean          | x == toNumber(y)|
+| String ou Number | Object           | x == toPrimitive(y)|
+| Object           | String ou Number | toPimitive(x) == y|
+
+Se x e y forem do mesmo tipo, o metodo para comparar os dois valores ou objeto será equals. Qualquer outra combinação não listada na tabela será false.
+Os metodos toNUmber e to Primitive são internos e avaliam os valores de acordo com as tabelas a seguir.
+
+- toNumber
+| Tipo do valor | Resultado |
+| ---     | ----------|
+| undefined  | É NaN    |
+| null       | É +0 |
+| Boolean    | Se o valor for true, o resultado será 1; se o valor for false, o resultado sera +0     |
+| Number     | É o valor do npumero    |
+
+- toPirimitive
+| Tipo do valor | Resultado |
+| ---     | ----------|
+| Object  | Se valueOF devolver um valor primitivo, esse valor primitivo será devolvido; caso contrário, se toString devolver um valor primitivo, esse valor será devolvido; senão, um erro será devolvido.    |
 
 
 
