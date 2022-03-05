@@ -137,6 +137,26 @@ O operador === é mais simples do que o ==. Se estivermos comparando dois valore
 | Boolean       | x e y são ambos true ou são ambos false   | true |
 | Object        | x e y referenciam o mesmo objeto          | true |
 
+## Estruturas de controle
+
+JavaScript tem um conjunto de estruturas de controle semelhantes a outras como C e Java. Instruções condicionais são tratadas com if ... else e switch. Laços são tratados com as contruções while, do ... while e for
+
+### Instruções condicionais
+
+Podemos usar a instrução if se quisermos executar um bloco de código somente se a condição (expressão) for true, deste modo:
+```
+var num = 1;
+if(num === 1) {
+  console.log('num is equal to 1');
+}
+```
+Podemos usar a instrução if ... else se quisermos executar um bloco de código e a condição for true, ou outro bloco de código, somente caso a condição seja false(else), assim:
+```
+var num = 0;
+if (num === 1) {
+  console.log('num is equal to 1');
+} else {
+
 
 
 
