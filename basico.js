@@ -96,3 +96,10 @@ console.log('packt' ? true : false) // true
 console.log('packt'  == true) // Booleano foi convertido em toNumber = packt == 1 . Em seguida String é convertida com toNumber e NaN é devolvido = NaN == 1 que é falso
 
 console.log('packt'  == false) // Booleano foi convertido em toNumber = packt == 0 . Em seguida String é convertida com toNumber e NaN é devolvido = NaN = 0 que é falso
+
+console.log('packt' === true); // false
+console.log('packt' === 'packt'); // true
+
+var person1 = {name:'John'};
+var person2 = {name:'John'};
+console.log(person1 === person2); // false, objetos diferentes
